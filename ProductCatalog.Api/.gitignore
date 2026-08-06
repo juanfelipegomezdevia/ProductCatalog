@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Logs
+Logs/
+
+# Archivos de usuario
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,17 @@
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Infrastructure.deps.json
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Infrastructure.runtimeconfig.json
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Infrastructure.dll
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Infrastructure.pdb
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Domain.dll
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\bin\Debug\net10.0\ProductCatalog.Domain.pdb
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.AssemblyInfo.cs
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductC.710271C5.Up2Date
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.dll
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\refint\ProductCatalog.Infrastructure.dll
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.pdb
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.genruntimeconfig.cache
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ref\ProductCatalog.Infrastructure.dll

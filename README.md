@@ -28,7 +28,7 @@ Prueba técnica desarrollada en .NET 10.
 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/ProductCatalog.git
+git clone https://github.com/juanfelipegomezdevia/ProductCatalog.git
 ```
 
 2. Abrir `ProductCatalog.sln`.

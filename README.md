@@ -19,7 +19,7 @@ Prueba técnica desarrollada en .NET 10.
 
 ## Requisitos
 
-- Visual Studio 2022
+- Visual Studio 2026
 - .NET 10 SDK
 - SQL Server Express o superior
 

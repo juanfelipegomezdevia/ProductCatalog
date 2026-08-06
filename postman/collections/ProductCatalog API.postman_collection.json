@@ -1,0 +1,265 @@
+{
+  "info": {
+    "_postman_id": "ced57077-8f06-4230-9bc4-31dce44b6533",
+    "name": "ProductCatalog API",
+    "description": "Prueba técnica desarrollada en .NET 10 para la gestión de un catálogo de productos.EndFragment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Products",
+      "id": "f923dddc-6238-4ac2-a813-e3b6c7704839",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Product By Id",
+      "id": "0ec3759f-0ee3-4592-a875-b0edb7327322",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Product",
+      "id": "36f4c14f-0861-464f-9728-359790d73b06",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"Audifonos Logitech\",\r\n    \"descripcion\": \"Audifonos Inalambricos\",\r\n    \"categoria\": \"Periféricos\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7114/api/products",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Product",
+      "id": "bf04cbb1-ad34-4819-af31-e1639c2bbb3d",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\":1,\r\n    \"nombre\":\"Teclado Gamer\",\r\n    \"descripcion\":\"RGB de la empresa\",\r\n    \"categoria\":\"Periféricos\",\r\n    \"estado\":true,\r\n    \"fechaRegistro\":\"2026-08-05T20:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7114/api/products/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Product",
+      "id": "e27a8853-16a5-40e6-9660-22cc3c686c1f",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search Name Product",
+      "id": "cd57a756-5a23-4736-9020-0f0149951e35",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/search?name=Teclado",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "Teclado"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search Category Product",
+      "id": "89896598-9947-401a-948c-12f75e781616",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/category?category=Periféricos",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "category"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "Periféricos"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Order Name Product",
+      "id": "0b3a9384-8061-4d71-8e56-6da75f28fefd",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/order/name",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "order",
+            "name"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Order Date Product",
+      "id": "d3f5e480-dd31-4bcb-9f0d-25ee465d25b5",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7114/api/products/order/date",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7114",
+          "path": [
+            "api",
+            "products",
+            "order",
+            "date"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

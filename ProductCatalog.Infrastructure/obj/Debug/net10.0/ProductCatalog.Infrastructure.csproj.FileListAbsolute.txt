@@ -15,3 +15,4 @@ C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\
 C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.pdb
 C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.genruntimeconfig.cache
 C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ref\ProductCatalog.Infrastructure.dll
+C:\Users\57320\Documents\Prueba Tecnica\ProductCatalog.Infrastructure\obj\Debug\net10.0\ProductCatalog.Infrastructure.sourcelink.json
